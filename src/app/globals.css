@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f4fff9;         /* soft mint green */
+  --foreground: #2e3a29;         /* deep leafy green for text */
+  --theme-color: #dfebdf;        /* romantic pastel green */
+  --theme-text: #1d5632;         /* elegant dark green text */
+  --accent-color: #a8e6cf;       /* fresh light accent green */
+  --highlight: #d0f0e0;          /* highlight/hover background */
 }
 
 @theme inline {
@@ -14,13 +18,35 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0f1d16;       /* dark greenish background */
+    --foreground: #e6ffee;       /* soft light text */
+    --theme-color: #1c3e2b;
+    --theme-text: #e3efe4;
+    --accent-color: #144d38;
+    --highlight: #1a3424;
   }
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Optional smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--theme-text);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
 }
