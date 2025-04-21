@@ -1,14 +1,16 @@
 @import "tailwindcss";
 
+/* 🌿 Root Variables: Light Mode */
 :root {
   --background: #f4fff9;         /* soft mint green */
   --foreground: #2e3a29;         /* deep leafy green for text */
   --theme-color: #dfebdf;        /* romantic pastel green */
   --theme-text: #1d5632;         /* elegant dark green text */
   --accent-color: #a8e6cf;       /* fresh light accent green */
-  --highlight: #d0f0e0;          /* highlight/hover background */
+  --highlight: #d0f0e0;          /* hover highlight */
 }
 
+/* Tailwind Theme Inline Extension (optional) */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -16,9 +18,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* 🌙 Dark Mode Styles */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0f1d16;       /* dark greenish background */
+    --background: #0f1d16;       /* dark green background */
     --foreground: #e6ffee;       /* soft light text */
     --theme-color: #1c3e2b;
     --theme-text: #e3efe4;
@@ -27,6 +30,7 @@
   }
 }
 
+/* 🌈 Body Base Style */
 body {
   background-color: var(--background);
   color: var(--foreground);
@@ -34,12 +38,12 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Optional smooth scroll */
+/* 🧈 Smooth Scrolling */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
-/* Scrollbar for webkit browsers */
+/* 🎛 Scrollbar for WebKit Browsers */
 ::-webkit-scrollbar {
   width: 8px;
 }
