@@ -59,8 +59,8 @@ const Intro = () => {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.8 }}
       >
-        <img
-          src="/Profile.jpg"
+        <img  
+          src="/Profile.JPG"
           alt="Profile of Susmita Yogi"
           className="object-cover w-full h-full"
           onContextMenu={(e) => e.preventDefault()}  // Correct event handler
