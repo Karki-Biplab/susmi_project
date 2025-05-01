@@ -7,14 +7,14 @@ const projects = [
     title: "Blood Bank Management System",
     description: "A system to manage blood stocks and emergencies across Nepal.",
     technologies: ["Django", "MongoDB", "JavaScript"],
-    link: "https://github.com/yourusername/blood-bank-management", // Update with actual link
+    link: "https://https://github.com/susmita55/blood-bank-management",
     image: "/susmi.png", // Add an image in your 'public/images' folder
   },
   {
     title: "Hotel Management System",
     description: "A system to handle booking, rooms, and customer management.",
     technologies: ["Node.js", "Express", "MySQL"],
-    link: "https://github.com/yourusername/hotel-management", // Update with actual link
+    link: "https://https://github.com/susmita55",
     image: "/susmi.png", // Add an image in your 'public/images' folder
   },
   // Add more projects as needed

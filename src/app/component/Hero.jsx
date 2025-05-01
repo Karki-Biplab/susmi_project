@@ -52,7 +52,7 @@ const Hero = () => {
 
           {/* Social Icons */}
           <a
-            href="https://github.com/YOUR_GITHUB"
+            href="https://https://github.com/susmita55"
             target="_blank"
             rel="noopener noreferrer"
             className="text-pink-600 text-2xl hover:text-pink-800 transition"
@@ -60,7 +60,7 @@ const Hero = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/YOUR_LINKEDIN"
+            href="https://linkedin.com/in/susmitayogi"
             target="_blank"
             rel="noopener noreferrer"
             className="text-pink-600 text-2xl hover:text-pink-800 transition"
