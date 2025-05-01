@@ -10,32 +10,27 @@ import { TbBrandCpp } from "react-icons/tb";
 
 const skills = {
   "💻 Programming Languages": [
-    { name: "JavaScript", icon: <FaJs className="text-yellow-400" />, level: 90 },
     { name: "Python", icon: <FaPython className="text-blue-500" />, level: 85 },
+    { name: "JavaScript", icon: <FaJs className="text-yellow-400" />, level: 70 },
     { name: "Java", icon: <FaJava className="text-red-600" />, level: 75 },
-    { name: "C++", icon: <TbBrandCpp className="text-blue-700" />, level: 70 },
-    { name: "Dart", icon: <SiFlutter className="text-blue-500" />, level: 65 },
-    { name: "PHP", icon: <FaPhp className="text-indigo-500" />, level: 60 },
+    { name: "C++", icon: <TbBrandCpp className="text-blue-700" />, level: 80 },
+    { name: "PHP", icon: <FaPhp className="text-indigo-500" />, level: 80 },
   ],
   "⚙️ Frameworks & Libraries": [
-    { name: "React", icon: <FaReact className="text-cyan-400" />, level: 90 },
-    { name: "Next.js", icon: <SiNextdotjs className="text-gray-900" />, level: 80 },
-    { name: "Node.js", icon: <FaNode className="text-green-600" />, level: 85 },
-    { name: "Express", icon: <SiExpress className="text-black" />, level: 80 },
-    { name: "Django", icon: <FaPython className="text-green-800" />, level: 75 },
-    { name: "Flutter", icon: <SiFlutter className="text-blue-400" />, level: 60 },
-    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" />, level: 95 },
-    { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" />, level: 85 },
+    { name: "Django", icon: <FaPython className="text-green-800" />, level: 90 },
+    { name: "Next.js", icon: <SiNextdotjs className="text-gray-900" />, level: 70 },
+    { name: "Node.js", icon: <FaNode className="text-green-600" />, level: 75 },
+    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" />, level: 65 },
+    { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" />, level: 75 },
   ],
   "🛠️ Tools & Platforms": [
-    { name: "Git", icon: <FaGitAlt className="text-orange-500" />, level: 90 },
     { name: "GitHub", icon: <FaGithub className="text-black" />, level: 90 },
+    { name: "Git", icon: <FaGitAlt className="text-orange-500" />, level: 90 },
     { name: "MongoDB", icon: <SiMongodb className="text-green-600" />, level: 75 },
     { name: "MySQL", icon: <SiMysql className="text-blue-600" />, level: 70 },
-    { name: "Firebase", icon: <SiFirebase className="text-yellow-500" />, level: 65 },
-    { name: "Postman", icon: <FaDatabase className="text-orange-600" />, level: 80 },
+    { name: "Firebase", icon: <SiFirebase className="text-yellow-500" />, level: 75 },
     { name: "Figma", icon: <FaFigma className="text-pink-500" />, level: 85 },
-    { name: "VS Code", icon: <FaJs className="text-blue-400" />, level: 95 },
+    { name: "VS Code", icon: <FaJs className="text-blue-400" />, level: 99 },
   ],
 };
 
