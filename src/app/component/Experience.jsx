@@ -68,7 +68,7 @@ const Experience = () => {
       <motion.a
         href="/SusmitaResume.pdf"
         download
-        className="fixed bottom-6 right-6 bg-green-600 text-white px-5 py-3 rounded-full shadow-lg flex items-center gap-2 hover:bg-green-700 transition"
+        className="fixed bottom-6 right-6 bg-green-600 text-white px-5 py-3 rounded-full shadow-lg flex items-center gap-2 hover:bg-green-700 transition animate-bounce duration-300"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >
