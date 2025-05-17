@@ -59,19 +59,16 @@ const Intro = () => {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.8 }}
       >
-        <img  
-          src="/Profile.JPG"
-          alt="Profile of Susmita Yogi"
-          className="object-cover w-full h-full"
-          onContextMenu={(e) => e.preventDefault()}  // Correct event handler
-          onDragStart={(e) => e.preventDefault()}   // Correct event handler
-          onDrag={(e) => e.preventDefault()}        // Correct event handler
-          onDragEnd={(e) => e.preventDefault()}     // Correct event handler
-          onDragEnter={(e) => e.preventDefault()}   // Correct event handler
-          onDragOver={(e) => e.preventDefault()}    // Correct event handler
-          onDragLeave={(e) => e.preventDefault()}   // Correct event handler
-          style={{ pointerEvents: 'none' }}         // Correct inline style syntax
-        />
+        <img
+        src="/Profile.JPG"
+        alt="Profile of Susmita Yogi"
+        className="object-cover w-full h-full rounded-md"
+        loading="lazy"
+        onContextMenu={(e) => e.preventDefault()}
+        style={{ pointerEvents: 'none' }}
+        width={300}
+        height={300}
+      />
 
       </motion.div>
     </section>
