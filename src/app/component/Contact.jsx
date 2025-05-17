@@ -33,7 +33,7 @@ const Contact = () => {
     });
 
     const payload = new FormData();
-    payload.append("access_key", "cc94ff1f-52db-458c-b009-a7e7a281b48e");
+    payload.append("access_key", "a4a94f06-6084-4d2b-b18b-959007e8b7f3");
     payload.append("name", formData.name);
     payload.append("email", formData.email);
     payload.append("message", formData.message);
